@@ -112,3 +112,22 @@ button:hover {
 .attribution a:hover {
     text-decoration: underline;
 }
+@media (max-width: 768px) {
+    main {
+        width: 400px;
+    }
+    .div-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid black;
+    }
+    .div-3 {
+        border: 1px solid black;
+        width: 100%;
+    }
+    .div-2 {
+        border: 1px solid black;
+    }
+}
